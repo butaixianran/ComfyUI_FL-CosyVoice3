@@ -39,23 +39,10 @@ NODE_DISPLAY_NAME_MAPPINGS = {
 
 # ASCII art banner
 ascii_art = """
-
- ███████╗██╗         ██████╗ ██████╗ ███████╗██╗   ██╗██╗   ██╗ ██████╗ ██╗ ██████╗███████╗██████╗
- ██╔════╝██║        ██╔════╝██╔═══██╗██╔════╝╚██╗ ██╔╝██║   ██║██╔═══██╗██║██╔════╝██╔════╝╚════██╗
- █████╗  ██║        ██║     ██║   ██║███████╗ ╚████╔╝ ██║   ██║██║   ██║██║██║     █████╗   █████╔╝
- ██╔══╝  ██║        ██║     ██║   ██║╚════██║  ╚██╔╝  ╚██╗ ██╔╝██║   ██║██║██║     ██╔══╝   ╚═══██╗
- ██║     ███████╗   ╚██████╗╚██████╔╝███████║   ██║    ╚████╔╝ ╚██████╔╝██║╚██████╗███████╗██████╔╝
- ╚═╝     ╚══════╝    ╚═════╝ ╚═════╝ ╚══════╝   ╚═╝     ╚═══╝   ╚═════╝ ╚═╝ ╚═════╝╚══════╝╚═════╝
-
-    Advanced Text-to-Speech | Zero-Shot Voice Cloning | Multi-lingual Synthesis
-
+⣏⡉ ⡇    ⡎⠑ ⢀⡀ ⢀⣀ ⡀⢀ ⡇⢸ ⢀⡀ ⠄ ⢀⣀ ⢀⡀ ⢉⡹
+⠇  ⠧⠤   ⠣⠔ ⠣⠜ ⠭⠕ ⣑⡺ ⠸⠃ ⠣⠜ ⠇ ⠣⠤ ⠣⠭ ⠤⠜
 """
-
-print(ascii_art)
-print("=" * 90)
-print("FL CosyVoice3 Custom Nodes Loaded")
-print("Version: 1.0.0")
-print("=" * 90)
-print("")
+print(f"\033[35m{ascii_art}\033[0m")
+print("FL CosyVoice3 Custom Nodes Loaded - Version 1.0.0")
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
